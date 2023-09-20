@@ -1,6 +1,5 @@
 import React from 'react';
 import useFetch from '../hooks/useFetch.js'
-import productSlider from './ProductSlider.js'
 import ProductSlider from './ProductSlider.js';
 
 const RelatedProducts = ({categoryTitle}) => {

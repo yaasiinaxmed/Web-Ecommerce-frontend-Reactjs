@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import useFetch from '../hooks/useFetch';
-import categoryNav from '../components/CategoryNav'
 import Product from '../components/Product'
 import CategoryNav from '../components/CategoryNav';
 
@@ -14,7 +13,7 @@ const Products = () => {
     if (data) {
       setTitle(data[0].attributes.categories.data[0].attributes.title)
     }
-  })
+  }, [data])
 
   return <div className='mb-16 pt-40 lg:pt-0'>
     <div className='container mx-auto'>
