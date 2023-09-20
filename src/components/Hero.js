@@ -29,9 +29,9 @@ const Hero = () => {
                 <div className="text-[20px] uppercase font-medium leading-tight mb-4">
                   Save 35% all dslr cameras
                 </div>
-                <a href="#" className="uppercase text-accent">
+                <span className="uppercase text-accent">
                   Shop now
-                </a>
+                </span>
               </div>
               {/* image */}
               <img
@@ -50,9 +50,9 @@ const Hero = () => {
                 <div className="text-[20px] uppercase font-medium leading-tight mb-4">
                   Save 35% mirror cameras
                 </div>
-                <a href="#" className="uppercase text-accent">
+                <span className="uppercase text-accent">
                   Shop now
-                </a>
+                </span>
               </div>
               {/* image */}
               <img

@@ -122,6 +122,7 @@ const CartProvider = ({ children }) => {
         removeFromCart,
         handleInput,
         itemsAmount,
+        amount,
         total,
         clearCart,
         handleSelect
